@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    background-color: transparent;
+    
+}
+
+body {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+}
+
+.formularioX, h2, label, input, b, h4 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(12, 10, 10);
+}

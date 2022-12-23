@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    color: #c6c5fd;
+    box-sizing: border-box;
+    font-family: 'Fredooka One', cursive;
+    background: rgba(0, 0, 0, 0.815);
+    background-position: center;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 4vh;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.815);
+    border-radius: 8px;
+}
+
+ul {
+    position: relative;
+    *display: inline-flex;
+    display: flex;
+    *flex-direction: initial;
+    gap: 32px;
+    background-color: transparent; 
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    background-color: transparent;
+    width: auto;
+}
+
+ul li a {
+    position: relative;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(224, 224, 224, 0.473);
+    background-color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 217, 217);
+    border-radius: 100%;
+}
+
+ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: rgba(212, 111, 243, 0.144);
+    width: 5px;
+    overflow: hidden;
+    transition: 0.8s;
+    border-right: 5px solid var(--clr);
+    -webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before {
+    width: 95%;
+    filter: drop-shadow(0 0 10px var(--clr));
+    font-size: 100.%;
+    border-right: 30px solid var(--clr);
+    border-radius: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 8px;
+    width: 80vw;
+    position: relative;
+    font-size: 5vw;
+    font-weight: bold;
+    line-height: 1em;
+    text-decoration: none;
+    *letter-spacing: 3px;
+    color: aliceblue;
+}
+
+/* Neon mágico */
+h1:hover, #hero .informacion-contenedor .informacion:hover {
+    text-shadow: 0 0 30px rgb(238, 126, 126);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.social-icons li a img:hover, #hero .informacion-contenedor #foto img:hover {
+    box-shadow: 0 0 5vw rgb(101, 51, 236);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    padding: 0 2%;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+/* Platzi Styles aprendidos*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales a continuación */
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100vw;
+    height: 50vw;
+}
+
+/* Estilos del hero a continuacion */
+
+#hero {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hero #gamer {
+    display: flex;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 1vw;
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 30px 50px ;
+    
+}
+
+#hero .informacion-contenedor #foto {
+    display: flex;
+    width: 20vw;
+    flex-flow: row;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    height: 20vw; 
+    
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    text-shadow: 0 0 30px rgb(92, 76, 241);
+}
+
+#hero .informacion-contenedor .informacion span {
+    margin-top: 5vw;
+    display: inline-block;
+    color: #ac9494;
+    margin-bottom: 40px;   
+    font-size: 2vw; 
+}
+
+.social-icons li a img {
+    border-radius: 100%;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    *width: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main p {
+    width: 80vw;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
