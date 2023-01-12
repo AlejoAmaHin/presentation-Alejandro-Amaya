@@ -1,0 +1,108 @@
+/* Estilo para el título principal */
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 7px;
+
+  }
+  h1 {
+    color: #47ffa9; /* Naranja claro */
+    text-shadow: 2px 2px 4px #000000; /* Sombra negra */
+  }
+  
+/* Estilo para los títulos de las tarjetas */
+  h2 {
+    color: #ffffff; /* Blanco */
+    text-shadow: 1px 1px 2px #000000; /* Sombra negra */
+  }
+  
+/* Estilo para los botones de las tarjetas */
+  .btn {
+
+    background-color: #47ffb2; 
+    border-color: #ffb347; /* Naranja claro */
+    color: #000000; /* Negro */
+    border-radius: 4px;
+    padding: 2px;
+    border: 4px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #4781ff;
+  }
+  
+ /* Estilo para el fondo de la página */
+  body {
+    background-color: #082222; /* Gris oscuro */
+  }
+  
+/* Estilo para el footer */
+  footer {
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+    padding: 20px;
+  }
+  
+/* Estilo para las tarjetas */
+.card {
+    background-color: #074d6d; /* Gris oscuro */
+    border-color: #ffb347; /* Naranja claro */
+    color: #ffffff; /* Blanco */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Sombra */
+  }
+  
+/* Estilo para el cuerpo de las tarjetas */
+  .card-body {
+    padding: 20px;
+    
+  }
+  
+/* Estilo para los textos de las tarjetas */
+  .card-text {
+    color: #ffffff; /* Blanco */
+    font-size: 16px;
+  }
+  
+/* Estilo para los títulos de las tarjetas */
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/* -------------------- */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Neon mágico */
+h1:hover, #hero .informacion-contenedor .informacion:hover {
+    text-shadow: 0 0 10px rgb(48, 45, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.social-icons li a img:hover, #hero .informacion-contenedor #foto img:hover {
+    box-shadow: 0 0 5vw rgb(101, 51, 236);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    padding: 0 2%;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+div {
+  margin: 4px;
+  border-radius: 7px;
+}
+
+
+    

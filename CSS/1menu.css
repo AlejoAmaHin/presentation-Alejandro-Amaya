@@ -7,6 +7,126 @@
     background-position: center;
 }
 
+/* INICIO DEL RESPONSIVE DESIGN MOBILE */
+
+@media (max-width: 991px) {
+
+    * {
+        
+        color: #c6c5fd;
+        box-sizing: border-box;
+        font-family: 'Fredooka One', cursive;
+        background: rgba(117, 66, 66, 0.815);
+    }
+
+    body {
+        background-color: #c6c5fd;
+    }
+
+    .container {
+        margin: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 4vh;
+    }
+
+
+    /* Estilos generales*/
+    .image-container {
+        display: flex;
+    }
+
+    .image-container img {
+        width: 100vw;
+        height: 50vw;
+    }
+
+    /* Estilos del hero a continuacion */
+
+    #hero {
+    position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #hero #gamer {
+        display: flex;
+        width: 100%;
+    }
+
+    #hero .informacion-contenedor {
+        position: absolute;
+        top: 1vw;
+        left: 0;
+        display: flex;
+        width: 100%;
+        color: #fff;
+        padding: 30px 50px ;
+
+    }
+
+    #hero .informacion-contenedor #foto {
+        display: flex;
+        width: 20vw;
+        flex-flow: row;
+    }
+
+    #hero .informacion-contenedor #foto img {
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+        width: 20vw;
+        height: 20vw; 
+
+    }
+
+    #hero .informacion-contenedor .informacion {
+        margin-left: 20px;
+        font-weight: bold;
+        background-color: transparent;
+        text-shadow: 0 0 30px rgb(92, 76, 241);
+    }
+
+    #hero .informacion-contenedor .informacion span {
+        margin-top: 5vw;
+        display: inline-block;
+        color: #ac9494;
+        margin-bottom: 40px;   
+        font-size: 2vw; 
+    }
+
+    .social-icons li a img {
+        border-radius: 100%;
+        display: flex;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        *width: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main p {
+        width: 80vw;
+        margin: 10px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    }
+
+/* FIN DEL RESPONSIVE DESIGN MOBILE */
+
 .container {
     margin: 10px;
     display: flex;
@@ -36,7 +156,7 @@ ul li {
 
 ul li a {
     position: relative;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: bold;
     line-height: 1.5em;
     text-decoration: none;
@@ -99,13 +219,11 @@ ul li a:hover {
     cursor: pointer;
 }
 
-/* Platzi Styles aprendidos*/
+/* Platzi Styles + curso desarrollo de páginas web*/
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Estilos generales a continuación */
+
+/* Estilos generales*/
 
 .image-container {
     display: flex;
