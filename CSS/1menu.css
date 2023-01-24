@@ -7,20 +7,19 @@
     background-position: center;
 }
 
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* INICIO DEL RESPONSIVE DESIGN MOBILE */
 
 @media (max-width: 991px) {
 
     * {
-        
-        color: #c6c5fd;
         box-sizing: border-box;
         font-family: 'Fredooka One', cursive;
-        background: rgba(117, 66, 66, 0.815);
-    }
-
-    body {
-        background-color: #c6c5fd;
     }
 
     .container {

@@ -4,70 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Agregamos los links a los archivos CSS y JavaScript de Bootstrap -->
-    <link rel="stylesheet" href="CSS/stylePages.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/1menu.css">    
     <title>Proyectos 2022</title>
 </head>
 <body>
-    <!-- Contenedor principal -->
-<div class="container mt-5">
-    <div class="titulo">
-      <h1 class="text-center">Proyectos 2022</h1>
+  <header>
+    Web Developer learning (Esta página aún no tiene diseño "responsive")
+</header>
+    
+<nav>         
+    <div class="container">
+        <ul>
+            <li style="--clr:#f2f916"><a href="index.html" data-text="&nbsp;Inicio&nbsp;">&nbsp;Inicio&nbsp;</a></li>
+            <li style="--clr:#16BFF9"><a href="paginas web 2022.html" data-text="&nbsp;Proyectos&nbsp;">&nbsp;Proyectos&nbsp;</a></li>
+            <li style="--clr:#da9bff"><a href="hobbies.html" data-text="&nbsp;hobbies&nbsp;">&nbsp;hobbies&nbsp;</a></li>
+            
+        </ul>
     </div>
-      <!-- Fila con 4 tarjetas -->
-      <div class="row">
-        <!-- Tarjeta 1 -->
-          <div class="col-md-3">
-              <div class="card">
-                <div class="card-body">
-                    <div>
-                      <h2 class="card-title">Suculentas para tu hogar</h2>
-                    </div>
-                    <div>
-                      <p class="card-text">Descripción del sitio web 1</p>
-                    </div>                  
-                    <a href="http://www.sitio-web-1.com" class="btn btn-primary">Visitar sitio web 1</a>
-                  </div>
-                </div>
-              </div>        
-            </div>
-        <!-- fin Tarjeta 1 -->
-        <!-- Tarjeta 2 -->
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                  <div>
-                    <h2 class="card-title">Login (ejemplo)</h2>
-                  </div>
-                  <div>
-                    <p class="card-text">Descripción del sitio web 1</p>
-                  </div>                  
-                  <a href="http://www.sitio-web-1.com" class="btn btn-primary">Visitar sitio web 1</a>
-                </div>
-              </div>
-            </div>        
-          </div>
-        <!-- fin Tarjeta 2 -->
-        <!-- Tarjeta 3 -->
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                  <div>
-                    <h2 class="card-title">Facebook (sin responsive)</h2>
-                  </div>
-                  <div>
-                    <p class="card-text">Descripción del sitio web 1</p>
-                  </div>                  
-                  <a href="http://www.sitio-web-1.com" class="btn btn-primary">Visitar sitio web 1</a>
-                </div>
-              </div>
-            </div>        
-          </div>
-        <!-- fin Tarjeta 3 -->
+</nav> 
+    <!-- Contenedor principal -->
 
-      </div>
-  </div>
+    <ul class="social-icons">
+      
+      <li>
+        <a href="https://alejoamahin.github.io/Suculentas/" class="social-icon" id="SuculentasWeb">
+            <img src="images/suculentas.jpg" alt="SuculentasWeb"> 
+            
+        </a>
+        <h3><span>Suculentas para tu hogar</span></h3> 
+      </li>
+
+      <li>
+        <a href="https://alejoamahin.github.io/LoginButton/" class="social-icon" id="LoginButton">
+            <img src="images/login.png" alt="LoginButton"> 
+            
+        </a>
+        <h3><span>Login Button</span></h3> 
+      </li>
+
+      <li class="facebookExample">
+        <a href="https://alejoamahin.github.io/FacebookExample/" class="social-icon" id="FacebookExample">
+            <img src="images/facebookExample.png" alt="FacebookExample"> 
+        </a>
+        <h3><span>FacebookExample</span></h3> 
+      </li>
+
+    </ul>
     
 </body>
 </html>
